@@ -47,7 +47,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "shell 执行：流式输出 + 截断 + 超时",
       en: "Shell exec: streaming + cap + timeout",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s04-apply-patch",
