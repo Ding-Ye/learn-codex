@@ -1,0 +1,22 @@
+{
+  "phase": "D_in_progress",
+  "decisions": {
+    "upstream_url": "https://github.com/openai/codex",
+    "upstream_owner": "openai",
+    "upstream_repo": "codex",
+    "upstream_language": "Rust",
+    "target_language": "Go",
+    "go_binary": "/Users/yeding/sdk/go-1.26.3/bin/go",
+    "go_version": "1.26.3",
+    "chapter_count_strategy": "auto",
+    "chapter_count": 10,
+    "github_owner": "Ding-Ye",
+    "repo_name": "learn-codex",
+    "visibility": "public",
+    "autonomous": true,
+    "module_path": "github.com/Ding-Ye/learn-codex"
+  },
+  "completed_sessions": ["s01-minimum-loop"],
+  "started_at": "2026-05-09T19:53:00Z",
+  "workdir": "/Users/yeding/learn-codex"
+}

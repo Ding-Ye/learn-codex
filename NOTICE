@@ -1,0 +1,14 @@
+learn-codex
+Copyright 2026 The learn-codex authors.
+
+This product is a *teaching companion* for openai/codex
+(https://github.com/openai/codex). It re-implements a teaching subset of
+codex's core mechanisms in Go, session by session, for educational use only.
+
+Upstream codex is © OpenAI under the Apache License 2.0. Selected Rust
+excerpts in `upstream-readings/` are reproduced verbatim (with annotations and
+trimming for clarity) for the purpose of comparative study. The full upstream
+LICENSE applies; see https://github.com/openai/codex/blob/main/LICENSE.
+
+This is NOT an official OpenAI product, NOT a fork, and NOT intended as a
+production replacement for codex.

@@ -1,0 +1,32 @@
+# Go
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/bin/
+/dist/
+
+# Web
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env
+.env
+.env.local
+
+# Generated rollouts (when running learn-codex locally)
+.codex-learn/
+sessions/*.jsonl
