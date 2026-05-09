@@ -38,7 +38,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "调用 Chat Completions 流式 + tool-use",
       en: "Streaming Chat Completions + tool-use",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s03-exec-tool",
