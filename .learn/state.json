@@ -1,5 +1,5 @@
 {
-  "phase": "D_in_progress",
+  "phase": "completed",
   "decisions": {
     "upstream_url": "https://github.com/openai/codex",
     "upstream_owner": "openai",
@@ -12,11 +12,42 @@
     "chapter_count": 10,
     "github_owner": "Ding-Ye",
     "repo_name": "learn-codex",
+    "github_url": "https://github.com/Ding-Ye/learn-codex",
     "visibility": "public",
     "autonomous": true,
-    "module_path": "github.com/Ding-Ye/learn-codex"
+    "module_path": "github.com/Ding-Ye/learn-codex",
+    "has_llm_call_layer": true,
+    "phase_g_applied": true
   },
-  "completed_sessions": ["s01-minimum-loop"],
+  "completed_sessions": [
+    "s01-minimum-loop",
+    "s02-model-client",
+    "s03-exec-tool",
+    "s04-apply-patch",
+    "s05-approval",
+    "s06-execpolicy",
+    "s07-rollout",
+    "s08-sandbox",
+    "s09-mcp-bridge",
+    "s10-cli-driver"
+  ],
+  "doc_chapters": [
+    "multi-model",
+    "s01-minimum-loop",
+    "s02-model-client",
+    "s03-exec-tool",
+    "s04-apply-patch",
+    "s05-approval",
+    "s06-execpolicy",
+    "s07-rollout",
+    "s08-sandbox",
+    "s09-mcp-bridge",
+    "s10-cli-driver",
+    "s_full-integration",
+    "appendix-a-mental-model",
+    "appendix-b-upstream-map"
+  ],
   "started_at": "2026-05-09T19:53:00Z",
+  "completed_at": "2026-05-09T20:30:00Z",
   "workdir": "/Users/yeding/learn-codex"
 }
