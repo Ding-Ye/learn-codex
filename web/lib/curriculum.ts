@@ -17,10 +17,10 @@ export const CURRICULUM: ChapterMeta[] = [
     slug: "multi-model",
     num: "M",
     title: {
-      zh: "多模型接入指南（Anthropic / 自托管 / Echo）",
-      en: "Multi-model guide (Anthropic / self-hosted / Echo)",
+      zh: "多模型接入指南（OpenAI / Anthropic / Echo）",
+      en: "Multi-model guide (OpenAI / Anthropic / Echo)",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s01-minimum-loop",
