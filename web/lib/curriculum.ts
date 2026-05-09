@@ -83,7 +83,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "JSONL 会话日志 + resume from disk",
       en: "JSONL session log + resume from disk",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s08-sandbox",

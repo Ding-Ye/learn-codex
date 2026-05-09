@@ -6,3 +6,4 @@ use ./agents/s03-exec-tool
 use ./agents/s04-apply-patch
 use ./agents/s05-approval
 use ./agents/s06-execpolicy
+use ./agents/s07-rollout

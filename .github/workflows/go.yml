@@ -28,6 +28,7 @@ jobs:
           - s04-apply-patch
           - s05-approval
           - s06-execpolicy
+          - s07-rollout
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
