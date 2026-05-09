@@ -101,7 +101,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "stdio JSON-RPC 调用外部 MCP server",
       en: "stdio JSON-RPC client to external MCP server",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s10-cli-driver",

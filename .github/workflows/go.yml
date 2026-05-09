@@ -30,6 +30,7 @@ jobs:
           - s06-execpolicy
           - s07-rollout
           - s08-sandbox
+          - s09-mcp-bridge
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5

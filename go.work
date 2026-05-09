@@ -8,3 +8,4 @@ use ./agents/s05-approval
 use ./agents/s06-execpolicy
 use ./agents/s07-rollout
 use ./agents/s08-sandbox
+use ./agents/s09-mcp-bridge
