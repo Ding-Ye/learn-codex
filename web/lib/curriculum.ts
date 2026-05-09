@@ -56,7 +56,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "V4A patch DSL 解析 + 应用",
       en: "V4A patch DSL parser + applier",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s05-approval",
