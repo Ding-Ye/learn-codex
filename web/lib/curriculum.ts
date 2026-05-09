@@ -116,7 +116,7 @@ export const CURRICULUM: ChapterMeta[] = [
     slug: "s_full-integration",
     num: "s_full",
     title: { zh: "端到端集成：16 步执行轨迹", en: "End-to-end: 16-step trace" },
-    available: false,
+    available: true,
   },
   {
     slug: "appendix-a-mental-model",
@@ -125,7 +125,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "附录 A · 本地优先 + Responses-vs-Chat-Completions + peer 比较",
       en: "Appendix A · Local-first + Responses-vs-Chat-Completions + peer comparison",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "appendix-b-upstream-map",
@@ -134,7 +134,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "附录 B · 上游 codex-rs 源码导读地图",
       en: "Appendix B · upstream codex-rs source-reading map",
     },
-    available: false,
+    available: true,
   },
 ];
 
