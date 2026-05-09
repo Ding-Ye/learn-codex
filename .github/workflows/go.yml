@@ -29,6 +29,7 @@ jobs:
           - s05-approval
           - s06-execpolicy
           - s07-rollout
+          - s08-sandbox
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5

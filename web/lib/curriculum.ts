@@ -92,7 +92,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "macOS Seatbelt + Linux Landlock 适配",
       en: "macOS Seatbelt + Linux Landlock adapters",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s09-mcp-bridge",
