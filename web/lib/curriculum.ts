@@ -74,7 +74,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "命令安全 DSL → Allow / Prompt / Forbidden",
       en: "Shell-safety DSL → Allow / Prompt / Forbidden",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s07-rollout",

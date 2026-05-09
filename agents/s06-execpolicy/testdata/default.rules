@@ -1,0 +1,23 @@
+# learn-codex sample default policy
+default prompt
+
+# Always-safe read-only commands
+rule allow prefix "git status"
+rule allow prefix "git log"
+rule allow prefix "git diff"
+rule allow prefix "ls"
+rule allow prefix "cat"
+rule allow prefix "pwd"
+
+# Test commands are usually safe
+rule allow exact "go test ./..."
+rule allow prefix "go vet"
+
+# Always destructive — prompt
+rule prompt prefix "rm"      reason "destructive"
+rule prompt prefix "mv"      reason "may move files unintentionally"
+rule prompt prefix "git push" reason "publishes to remote"
+
+# Never
+rule forbid prefix "sudo"    reason "privilege escalation"
+rule forbid prefix "curl | sh" reason "unsafe pipe-to-shell"
