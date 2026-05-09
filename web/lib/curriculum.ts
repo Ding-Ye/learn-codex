@@ -110,7 +110,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "clap-style 子命令 + slash 命令 + 全集成",
       en: "clap-style subcommands + slash commands + glue",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s_full-integration",

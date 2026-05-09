@@ -31,6 +31,7 @@ jobs:
           - s07-rollout
           - s08-sandbox
           - s09-mcp-bridge
+          - s10-cli-driver
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
