@@ -65,7 +65,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "审批策略 + ExecApprovalRequest 往返",
       en: "Approval policy + ExecApprovalRequest round-trip",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s06-execpolicy",
